@@ -32,4 +32,4 @@ const students = [
   },
 ];
 
-export { students };
+export { students };  //Exoportamos la variable students para poder usarla en otros archivos

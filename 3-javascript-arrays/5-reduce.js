@@ -9,6 +9,8 @@ const total2 = points.reduce((total, point) => {
   return total + point;
 }, 0);
 
+
+
 const total3 = points.reduce((total, point) => total + point, 0);
 
 const totalAges = students.reduce((total, student) => total + student.age, 0);

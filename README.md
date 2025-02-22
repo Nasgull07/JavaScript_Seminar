@@ -42,3 +42,6 @@ Ejecutar JS
 ```
 node main.js
 ```
+## Referencias del ejercicio
+
+He usat el copilot (perque no entenia perque havia d'usar la funcio flat() perque el codi funciones).

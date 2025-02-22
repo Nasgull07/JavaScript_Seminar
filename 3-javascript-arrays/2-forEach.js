@@ -10,6 +10,9 @@ students.forEach(function (student, index, students) {
   console.log(student, index, students)
 })
 
+//mas sencillo
+students.forEach(student => console.log(student))
+
 // Functional Approach with Arrow Function
 // Immutability - Data should not be changed; use copies instead.
 

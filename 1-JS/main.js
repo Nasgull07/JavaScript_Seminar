@@ -66,14 +66,14 @@ let person = {
 };
 console.log(typeof person, person); // object { name: 'Alice', age: 30 }
 
-const { personName, personAge } = person; // Destructuring
+const { personName, personAge } = person; // Destructuring (crea dos variables con los valores de las propiedades del objeto)
 
 
 // Arrays (special object storing multiple values)
 let colors = ["red", "green", "blue"];
 console.log(typeof colors, colors); // object [ 'red', 'green', 'blue' ]
 
-const [color1, color2] = colors; // Destructuring
+const [color1, color2] = colors; // Destructuring (coje los valores de las posiciones del array)
 console.log(color1, color2);
 
 
@@ -82,6 +82,8 @@ function greet ( name ) {
   return `Hi, I'm ${name}`;
 }
 console.log(typeof greet, greet('Alice')); // function "Hi, I'm Alice"
+
+
 
 // Function arrow
 const greetArrow = (name) => `Hi, I'm ${name}`;
